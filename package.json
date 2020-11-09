@@ -1,0 +1,9 @@
+{
+  "name": "react-cloud-state",
+  "version": "1.0.0",
+  "description": "A minimal state management in between redux and context api, for react",
+  "main": "/dist/index.js",
+  "author": "Jamyth Luk",
+  "license": "MIT",
+  "private": false
+}

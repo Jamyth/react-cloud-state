@@ -20,5 +20,5 @@ declare module "react-cloud-state" {
       getState: () => ModuleState["app"][ModuleName];
       getRootState: () => ModuleState;
     }) => Record<string, Function>
-  ) => { getAction: () => Record<string, Function> };
+  ) => { getActions: () => Record<string, Function> };
 }

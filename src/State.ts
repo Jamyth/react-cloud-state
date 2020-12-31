@@ -1,6 +1,9 @@
-import { State as Props } from "../index";
+import { InitialState } from "./type";
 
-export let State: Props = {
-  loading: {},
+export let initialState: InitialState = {
   app: {},
+};
+
+export const setState = (state: InitialState) => {
+  initialState = state;
 };

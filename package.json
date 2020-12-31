@@ -1,17 +1,20 @@
 {
   "name": "react-cloud-state",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A minimal state management in between redux and context api, for react",
   "repository": {
     "url": "https://github.com/Jamyth/react-cloud-state"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf dist && tsc"
   },
   "main": "/dist/index.js",
   "author": "Jamyth Luk",
   "license": "MIT",
   "private": false,
+  "peerDependencies": {
+    "immer": "^8.0.0"
+  },
   "devDependencies": {
     "@types/node": "^14.14.6",
     "@types/react": "^16.9.56",
@@ -19,6 +22,7 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
+    "immer": "^8.0.0",
     "react": "^17.0.1"
   }
 }

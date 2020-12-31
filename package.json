@@ -1,6 +1,6 @@
 {
   "name": "react-cloud-state",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A minimal state management in between redux and context api, for react",
   "repository": {
     "url": "https://github.com/Jamyth/react-cloud-state"

@@ -1,4 +1,4 @@
-name: Jamyth-Script Release
+name: React-Cloud-State Release
 on:
   push:
     branches: [master]

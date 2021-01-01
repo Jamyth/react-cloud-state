@@ -96,21 +96,6 @@ export const registerModule = <
     getRootState,
   });
 
-  const getKeys = <T extends string>(module: { [key in T]: unknown }) => {
-    const keys: Array<T> = [];
-    for (const propertyName of Object.getOwnPropertyNames(module)) {
-      if (
-        module[propertyName as T] instanceof Function &&
-        propertyName !== "constructor"
-      ) {
-        keys.push(propertyName as T);
-      }
-    }
-    return keys;
-  };
-
-  const keys = getKeys(actions);
-
   const getActions = () => {
     return actions;
   };

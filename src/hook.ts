@@ -110,7 +110,6 @@ export const registerModule = <
   };
 
   const keys = getKeys(actions);
-  console.log(keys);
 
   const getActions = () => {
     return actions;

@@ -4,7 +4,7 @@ A minimal state management library for [React](https://reactjs.org/tutorial/tuto
 
 # Important Notice
 
-Repo has been moved to [lib](https://github.com/Jamyth/libs/packages/react-cloud-state)
+Repo has been moved to [lib](https://github.com/Jamyth/libs/tree/master/packages/react-cloud-state)
 
 # Licenses
 
